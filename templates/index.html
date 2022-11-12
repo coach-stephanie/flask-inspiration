@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="image send">
+            <img src="/static/img/send.svg">
+        </div>
+        <div class="inspiration-box">
+            <h1>Send me a message!</h1>
+            <form action="/message" method="post">
+                <input type="text" name="message" placeholder="Message"> 
+                <input type="text" name="name" placeholder="From:">  
+                <input type="submit" value="Send" /> 
+            </form> 
+        </div>
+        <div class="image received">
+            <img src="/static/img/received.svg">
+        </div>
+    </main> 
+</body>
+</html>
