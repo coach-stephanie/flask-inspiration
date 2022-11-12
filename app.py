@@ -14,7 +14,7 @@ def post_message():
     message = request.form['message']
     name = request.form['name']
     display = f'{message}  Love, {name}'
-    print(display)
+    sense.show_message(display, text_colour=[0, 0, 255])
     return render_template('received.html')
 
 
