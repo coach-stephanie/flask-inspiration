@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inspiration</title>
+    <title>About Inspiration</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,23 +12,17 @@
 <body>
     <main>
         <div class="image send">
-            <img src="/static/img/send.svg">
-        </div>
-        <div class="inspiration-box">
-            <h1>Send me a message!</h1>
-            <!-- FORM  -->
-            <form action="/message" method="post">
-                <input type="text" name="message" placeholder="Message:"> 
-                <input type="text" name="name" placeholder="From:"> 
-                <!-- <label>Color: </label> -->
-                <input type="color" name="color" value="#ff6585">   
-                <input type="submit" value="Send" /> 
-            </form> 
-            <a href="/about">About</a>
-        </div>
-        <div class="image received">
             <img src="/static/img/received.svg">
         </div>
+        <div class="inspiration-box">
+            <h1>About</h1>
+            <p>An app for sending a friend some encouragment on their SenseHat</p>
+            <a href="/">< Back</a>
+        </div>
+        <div class="image received">
+            <img src="/static/img/inbox.svg">
+        </div>
     </main> 
+   
 </body>
 </html>
